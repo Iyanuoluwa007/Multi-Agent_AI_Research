@@ -16,11 +16,11 @@ The app runs in two modes:
 ```
 Research Query
   → [Agent 01] Paper Search (arXiv API - always live, free)
-  → [Agent 02] Summarisation (Claude/GPT-4o)
-  → [Agent 03] Hypothesis Generation (Claude/GPT-4o)
-  → [Agent 04] Experiment Design (Claude/GPT-4o)
-  → [Agent 05] Code Generator (Claude/GPT-4o)
-  → [Agent 06] Evaluator (Claude/GPT-4o)
+  → [Agent 02] Summarisation (Claude/GPT)
+  → [Agent 03] Hypothesis Generation (Claude/GPT)
+  → [Agent 04] Experiment Design (Claude/GPT)
+  → [Agent 05] Code Generator (Claude/GPT)
+  → [Agent 06] Evaluator (Claude/GPT)
   → Report + Toolkit (training scripts, dataset downloaders, configs)
 ```
 
@@ -68,7 +68,7 @@ vercel
 ## Features
 
 - **Real arXiv search** — queries the actual arXiv API (no key needed)
-- **Dual AI provider** — Claude Sonnet 4 or GPT-4o, your choice
+- **Dual AI provider** — Claude Sonnet 4 or GPT, your choice
 - **6 specialized agents** — each with domain-specific system prompts
 - **Graceful fallback** — if any API call fails, that stage uses demo data
 - **Research Toolkit** — generates training scripts, dataset downloaders, configs, evaluation scripts, and a README

@@ -2,21 +2,21 @@
 
 > Multi-agent system that automatically reads papers, generates hypotheses, writes experiments, and evaluates results.
 
-A six-agent pipeline powered by Claude or GPT that automates the early stages of research: literature search, paper summarization, hypothesis generation, experiment design, code generation, and evaluation.
+A six-agent pipeline powered by Claude or GPT that automates the early stages of research: literature search, paper summarisation, hypothesis generation, experiment design, code generation, and evaluation.
 
 ## Demo
 
 The app runs in two modes:
 
-- **Demo** — instant results with cached data, no API key needed
-- **Live** — real arXiv search + AI-powered agents (Claude or OpenAI)
+- **Demo** - instant results with cached data, no API key needed
+- **Live** - real arXiv search + AI-powered agents (Claude or OpenAI)
 
 ## Pipeline
 
 ```
 Research Query
   → [Agent 01] Paper Search (arXiv API - always live, free)
-  → [Agent 02] Summarization (Claude/GPT-4o)
+  → [Agent 02] Summarisation (Claude/GPT-4o)
   → [Agent 03] Hypothesis Generation (Claude/GPT-4o)
   → [Agent 04] Experiment Design (Claude/GPT-4o)
   → [Agent 05] Code Generator (Claude/GPT-4o)

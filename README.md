@@ -2,7 +2,7 @@
 
 > Multi-agent system that automatically reads papers, generates hypotheses, writes experiments, and evaluates results.
 
-A six-agent pipeline powered by Claude or GPT-4o that automates the early stages of research: literature search, paper summarization, hypothesis generation, experiment design, code generation, and evaluation.
+A six-agent pipeline powered by Claude or GPT that automates the early stages of research: literature search, paper summarization, hypothesis generation, experiment design, code generation, and evaluation.
 
 ## Demo
 
